@@ -11,7 +11,14 @@ const Navbar = () => {
         </Link>
       </div>
       {/* RESPONSIVE MENU */}
-      <div>2</div>
+      <div>
+        {/* MENU BUTTON */}
+        <button className='w-10 h-8 flex flex-col justify-between'>
+          <div className='w-10 h-1 bg-black rounded'></div>
+          <div className='w-10 h-1 bg-black rounded'></div>
+          <div className='w-10 h-1 bg-black rounded'></div>
+        </button>
+      </div>
     </div>
   );
 };
